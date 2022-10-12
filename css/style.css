@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap");
+
+/* --------- ОБНУЛЕННЯ СТИЛІВ ТЕГІВ ------------ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a {
+	color: inherit;
+}
+a:link,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+img{
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+}
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+}
+
+  
+/* ------Стилізація----------- */
+[class*="__container"]{
+	max-width: 810px;
+	margin: 0 auto;
+}
+
+.body {
+    font-family: "Lato";
+    color: #424551;
+	margin-top: 80px;
+    line-height: 160%;
+}
+h1{
+    max-width: 810px;
+    max-height: 120px;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+    margin-bottom: 92px;
+}
+
+.body__image {
+    max-width: 810px;
+    margin-bottom: 60px;
+}
+.body__image img{
+    max-width: 100%;
+}
+
+.body__text--bold {
+    font-weight: 900;
+    font-size: 20px;
+	line-height: 150%;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	margin-bottom: 24px;
+}
+.body__text p{
+    margin-bottom: 24px;
+}
+
+.body__blockquote {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+	padding: 0 0 0 58px;
+    margin-bottom: 48px;
+    color: #1E212C;
+    background: url(../img/braces.png) 0 0 no-repeat;
+    
+}
+.body__list {
+    padding-left: 20px;
+	margin-bottom: 24px	;
+}
+.body__list li{
+    margin-bottom: 4px;
+    padding-left: 32px;
+    background: url(../img/check.jpg) 0 6px no-repeat;
+}
+
+.main {
+    font-family: "Lato";
+    color: #424551;
+	margin-top: 80px;
+    line-height: 160%;
+
+}
+h3{
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+h2{
+    
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+
+}
+
+.about__list li {
+    margin-bottom: 4px;
+    padding-left: 32px;
+    background: url(../img/check.jpg) 0 6px no-repeat;
+}
+
+.about__bottom {
+    margin-bottom: 20px;
+}
+.bottom {
+    width: 97px;
+    height: 44px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 44px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border-radius: 4px;
+    padding: 0 3px 0 3px;
+    
+}
+.about__image {
+    max-width: 705px;
+}
+.about__image img{
+    max-width: 100%;
+}
+.courses__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E212C;
+}
+.courses__cost {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FF4242;
+}
+.courses__tutor {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #787A80;
+}
+
+
+
+
+
+
+
